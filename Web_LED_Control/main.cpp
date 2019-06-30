@@ -2,8 +2,8 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "DIMON";
-const char* password = "kizdakizdo";
+const char* ssid = "XXXXXX";
+const char* password = "12345678";
 
 byte arduino_mac[] = { 0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };
 IPAddress ip(192,168,0,35);

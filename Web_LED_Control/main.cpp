@@ -88,19 +88,23 @@ String webPage(){
         <table class=\"highlight\">\
           <tbody><tr>\
             <td>LED_BUILTIN</td>\
-            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b0\" " + checked(LED_0) + "><span class=\"lever\"></span>On</label></td>\
+            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b0\" " + checked(LED_0) + ">\
+            <span class=\"lever\"></span>On</label></td>\
             <td><a class=\"btn-floating blue " + state + "\"></a></td>\
           </tr><tr>\
             <td>LED_1</td>\
-            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b1\" " + checked(LED_1) + "><span class=\"lever\"></span>On</label></td>\
+            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b1\" " + checked(LED_1) + ">\
+            <span class=\"lever\"></span>On</label></td>\
             <td><a class=\"btn-floating red " + state + "\"></a></td>\
           </tr><tr>\
             <td>LED_2</td>\
-            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b2\" " + checked(LED_2) + "><span class=\"lever\"></span>On</label></td>\
+            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b2\" " + checked(LED_2) + ">\
+            <span class=\"lever\"></span>On</label></td>\
             <td><a class=\"btn-floating red " + state + "\"></a></td>\
           </tr><tr>\
             <td>LED_2</td>\
-            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b3\" " + checked(LED_3) + "><span class=\"lever\"></span>On</label></td>\
+            <td class=\"switch\"><label>Off<input type=\"checkbox\" name=\"b3\" " + checked(LED_3) + ">\
+            <span class=\"lever\"></span>On</label></td>\
             <td><a class=\"btn-floating green " + state + "\"></a></td>\
           </tr></tbody>\
         </table><br>\
